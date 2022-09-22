@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{style.css}" href="../static/style.css">
+</head>
+<body>
+<form action="city" method="post">
+    <label for="postalCode">Postal Code:</label>
+    <input type="text" id="postalCode" name="postalCode" placeholder="Type postal code" autofocus>
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
